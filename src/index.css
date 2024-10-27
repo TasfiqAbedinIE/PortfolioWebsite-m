@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    /* list-style: none; */
+    text-decoration: none;
+}
+
+:root {
+    --color-link : #5AA9E6;
+    --color-link-light: #7FC8F8;
+    --color-bg: #F9F9F9;
+    --color-primary: #FFE45E;
+    --color-secondary: #FF6392;
+    --color-black: #000000;
+    --color-white: #ffffff;
+
+    /* ================ BLUE SHADE ================= */
+    --color-blue-1: #03045e;
+    --color-blue-2: #023e8a;
+    --color-blue-3: #0077b6;
+    --color-blue-4: #0096c7;
+    --color-blue-5: #00b4d8;
+    --color-blue-6: #48cae4;
+    --color-blue-7: #90e0ef;
+    --color-blue-8: #ade8f4;
+    --color-blue-9: #caf0f8;
+    --color-white-1: #f8f9fa;
+
+    /* ================ TORQUOISE SHADE ================= */
+    --color-torquoise-1: #7400b8;
+    --color-torquoise-2: #6930c3;
+    --color-torquoise-3: #5e60ce;
+    --color-torquoise-4: #5390d9;
+    --color-torquoise-5: #4ea8de;
+    --color-torquoise-6: #48bfe3;
+    --color-torquoise-7: #56cfe1;
+    --color-torquoise-8: #64dfdf;
+    --color-torquoise-9: #72efdd;
+    --color-torquoise-10: #80ffdb;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+
+    --transition: all 400ms ease;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background: var(--color-bg);
+    /* line-height: 2; */
+}
+
+/* ==================== General Style ===================== */
+.container {
+    /* background-color: bisque; */
+    width: 90vw;
+    height: 100vh;
+    margin-left: 5%;
+}
+a {
+    color: var(--color-link);
+    transition: var(--transition);
+}
+
+a:hover{
+    color: var(--color-link-light);
+}
+
+ul{
+    margin-left: 6vw;
+    margin-top: 3vh;
+    font-size: 18px;
+    list-style-type: square;
+}
+li {
+    margin-top: 1vh;
+}
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-text-light);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-white);
+    transition: var(--transition);
+}
+
+.btn:hover{
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn-primary{
+    background: var(--color-bg);
+    color: var(--color-black);
+}
+.high_priority {
+    font-weight: bold;
+    color: var(--color-blue-3);
+    transition: font-size, 2s;
+}
+/* .high_priority:hover{
+    font-size: 4vw;
+} */
+.arrow_go{
+    font-size: 1.2vw;
+}
+.button {
+    width: max-content;
+    height: max-content;
+    cursor: pointer;
+    font-size: 1vw;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 2vh;
+    background-color: var(--color-blue-3);
+    color: var(--color-bg);
+    box-shadow: 5px 5px 5px var(--color-blue-5);
+    transition: background-color, 1s;
+}
+.button:hover{
+    background-color: var(--color-blue-6);
+}
+.circle {
+    width: 13vw;
+    height: 13vw;
+    background-color: var(--color-blue-5);
+    border-radius: 6.5vw;
+    position: absolute;
+    box-shadow: 5px 5px 5px var(--color-blue-1);
+}
+.circle_position_1 {
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+.rectangle {
+    width: 13vw;
+    height: 13vw;
+    position: absolute;
+    
+}
+.rectangle:hover {
+    box-shadow: 5px 5px 5px var(--color-blue-1);
+    cursor: pointer;
+}
+.rect_position_1 {
+    margin-left: 5vw;
+    margin-top: 13vh;
+    background-color: #ffd6ff;
+}
+.rect_position_2 {
+    margin-left: 55vw;
+    margin-top: 30vh;
+    background-color: #c8b6ff;
+}
+.rect_position_3 {
+    margin-left: 15vw;
+    margin-top: 60vh;
+    background-color: var(--color-blue-8);
+}
+.rect_position_4 {
+    margin-left: 5vw;
+    margin-top: 13vh;
+    background-color: #ffd60a;
+}
+.rect_position_5 {
+    margin-left: 55vw;
+    margin-top: 30vh;
+    background-color: #abc4ff;
+}
+.rect_position_6 {
+    margin-left: 15vw;
+    margin-top: 60vh;
+    background-color: var(--color-blue-9);
+}
+
+/* ================== MEDIA QUARY (MEDIAM DEVICES) ==================== */
+
+@media screen and (max-width: 1024px) {
+    .container{
+        width: var(--container-width-md);
+    }
+    section{
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: var(--container-width-sm);
+        height: auto;
+        /* background-color: #023e8a; */
+    }
+    section{
+        margin-top: 4rem;
+    }
+    .rectangle {
+        width: 30vw;
+        height:30vw;
+        position: absolute;
+        
+    }
+    .rect_position_1 {
+        margin-left: -10vw;
+        margin-top: 13vh;
+        background-color: #ffd6ff;
+    }
+    .rect_position_2 {
+        margin-left: 70vw;
+        margin-top: 30vh;
+        background-color: #c8b6ff;
+    }
+    .rect_position_3 {
+        margin-left: -10vw;
+        margin-top: 50vh;   
+        background-color: var(--color-blue-8);
+    }
+    .rect_position_4 {
+        margin-left: -10vw;
+        margin-top: 13vh;
+        background-color: #ffd60a;
+    }
+    .rect_position_5 {
+        margin-left: 70vw;
+        margin-top: 30vh;
+        background-color: #abc4ff;
+    }
+    .rect_position_6 {
+        margin-left: -10vw;
+        margin-top: 50vh;
+        background-color: var(--color-blue-9);
+    }
+    .circle {
+        width: 50vw;
+        height: 50vw;
+        background-color: var(--color-blue-5);
+        border-radius: 25vw;
+        position: absolute;
+        box-shadow: 5px 5px 5px var(--color-blue-1);
+    }
+    .circle_position_1 {
+        margin-left: 5vw;
+        margin-top: 10vh;
+    }
+    
+}

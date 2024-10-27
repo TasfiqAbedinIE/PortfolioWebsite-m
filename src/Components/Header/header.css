@@ -1,0 +1,773 @@
+/* -------------------------------- HEADER SECTION STYLE ------------------------------- */
+.profile_image{
+    width: 25vw;
+    height: 25vw;
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 15vh;
+}
+.text_container{
+    position: absolute;
+    margin-left: 40vw;
+    margin-top: 30vh;
+    line-height: 1.5;
+}
+.profile_name {
+    font-size: 4.5vw;
+}
+.suffix_text_profile_name {
+    font-size: 1.5vw;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.quote_container {
+    width: 90%;
+    /* background-color: #FF6392; */
+    position: absolute;
+    text-align: center;
+    margin-top: 80vh;
+}
+.quote_1 {
+    font-size: 3vw;
+}
+.design{
+    /* background-color: var(--color-blue-1); */
+    height: 20vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+}
+#column_1{
+    width: 3vw;
+    height: 20vh;
+    background-color: var(--color-torquoise-5);
+}
+#column_2{
+    width: 3vw;
+    height: 15vh;
+    background-color: var(--color-torquoise-6);
+}
+#column_3{
+    width: 3vw;
+    height: 10vh;
+    background-color: var(--color-torquoise-7);
+}
+.downArrow {
+    position: fixed;
+    margin-top: 93vh;
+    margin-left: 43.7vw;
+    font-size: 2.5vw;
+}
+
+/* ------------------------------------------- HEADER SECTION END ----------------------------------------- */
+
+
+/* .quote_container_2 { */
+    /* width: 90%; */
+    /* background-color: #FF6392; */
+    /* position: absolute; */
+    /* text-align: center; */
+    /* margin-top: 85vh; */
+/* } */
+
+/* .quote_2 { */
+    /* font-size: 2vw; */
+/* } */
+
+
+/* ================== Education container ================== */
+
+.certification_detail{
+    display: flex;
+    flex-direction: row;
+}
+.education_cert_detail{
+    position: relative;
+    padding-top: 12vh;
+    padding-left: 8vw;
+    margin-right: 5vw;
+}
+#prof_cert_1{
+    border: 2px solid var(--color-blue-3);
+    border-radius: 20px;
+    height: 20vh;
+    width: 35vw;
+    box-shadow: 5px 5px 10px var(--color-blue-3);
+    margin-top: 4vh;
+    cursor: pointer;
+}
+#prof_cert_1:hover{
+    background-color: var(--color-white-1);
+    border-color: var(--color-white-1);
+}
+#cert_header{
+    margin-bottom: 3vh;
+    color: var(--color-blue-2);
+}
+#cert_stage_header{
+    margin-top: 3vh;
+    color: var(--color-blue-3);
+}
+#cert_details{
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+#prof_cert_head{
+    font-size: 1.5vw;
+    font-weight: bolder;
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+}
+#prof_cert_uni{
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-top: 0.5vh;
+    margin-left: 1.5vw;
+    margin-bottom: 0.5vh;
+}
+#prof_cert_cer{
+    font-size: 1.2vw;
+    margin-left: 1.5vw;
+}
+/* ================== Skill container ================== */
+
+.skillexp{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 15vh;
+}
+
+.interpersonalExp{
+    /* height: 100vh; */
+    width: 45%;
+    /* background-color: aqua; */
+}
+
+.technicalExp{
+    /* height: 100vh; */
+    width: 55%;
+    /* background-color: blanchedalmond; */
+}
+#subtechexp{
+    margin-top: 2vh;
+    /* margin-bottom: 1vh; */
+}
+#programmingSkill{
+    display: flex;
+    flex-direction: row;
+}
+#programCard{
+    background-color: var(--color-blue-7);
+    width: 12vw;
+    height: 8vh;
+    margin-left: 1vw;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    border-radius: 10px;
+    text-align: center;
+}
+#programCard:hover{
+    background-color: var(--color-blue-6);
+}
+#progskillname{
+    margin-top: 2vh;
+}
+#softwareSkill{
+    display: flex;
+    flex-direction: row;
+}
+#softCard{
+    background-color: var(--color-blue-7);
+    width: 18vw;
+    height: 8vh;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    border-radius: 10px;
+    text-align: center;
+}
+#softCard:hover{
+    background-color: var(--color-blue-6);
+}
+#softCardContainer_1{
+    margin-top: 3vh;
+}
+#softCardContainer_2{
+    margin-left: 6vw;
+    margin-top: 3vh;
+}
+#softskillname{
+    padding-top: 2vh;
+}
+
+.bordercontainer{
+    position: relative;
+    margin-right: 2.5vw;
+    margin-left: 1.5vw;
+}
+#dotelement{
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-blue-3);
+    border-radius: 50%;
+    margin-top: 5vh;
+}
+
+.skill_image{
+    width: 25vw;
+    height: 25vw;
+    position: relative;
+    margin-left: 3vw;
+    margin-top: -25vh;
+}
+
+/* ================== Project container ================== */
+.project {
+    position: absolute;
+    width: 40vw;
+    height: 25vh;
+    margin-bottom: 0;
+    margin-top: 25vh;
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: inset;
+}
+/* .project_1 {
+    background: linear-gradient(90deg, var(--color-primary), transparent);
+} */
+.slideshow{
+    padding-top: 20vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.sliderDesign{
+    height: 60vh;
+    width: 10vw;
+    background-color: aqua;
+}
+.slideshowimage{
+    height: 40vh;
+    width: 80vw;
+}
+.project_2 {
+    /* background-color: aquamarine; */
+    margin-left: 50vw;
+}
+.project_3 {
+    float: left;
+    /* background-color: blue; */
+    margin-top: 53vh;
+}
+.project_4 {
+    float: right;
+    /* background-color: blueviolet; */
+    margin-left: 50vw;
+    margin-top: 53vh;
+}
+.container_title {
+    width: 90%;
+    position: absolute;
+    text-align: center;
+    margin-top: 5vh;
+}
+.title {
+    color: var(--color-blue-3);
+    font-size: 2vw;
+    font-weight: bold;
+}
+.project_title {
+    padding-top: 1vh;
+    padding-left: 1vw;
+}
+.project_summary {
+    font-size: 1.1vw;
+    text-align: justify;
+    padding-top: 1vh;
+    padding-left: 1vw;
+    padding-bottom: 1vh;
+}
+.learn_more {
+    cursor: pointer;
+    padding-top: 1vh;
+    padding-left: 1vw;
+    font-size: 1.5vw;
+}
+
+.project_value {
+    font-size: 5vw;
+    font-weight: bolder;
+    margin-top: -6vh;
+    margin-left: 1vw;
+}
+.project_desc {
+    font-size: 1.8vw;
+    font-weight: bold;
+    text-align: justify;
+    width: 35vw;
+    margin-left: 1vw;
+}
+
+/* ================== Bottom container ================== */
+#bottom_container{
+    width: 100vw;
+    height: 80vh;
+}
+
+.resume_title {
+    width: 40vw;
+    color: var(--color-black);
+    font-weight: bolder;
+    margin-top: 5vw;
+    margin-left: 5.5vw;
+}
+.resume {
+    font-size: 3vw;
+}
+.button_resume {
+    width: max-content;
+    background-color: var(--color-blue-3);
+    color: var(--color-white);
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 1vw;
+    margin-left: 22vw;
+    padding: 1vw;
+    box-shadow: 5px 5px 5px var(--color-blue-5);
+}
+.button_resume:hover{
+    background-color: var(--color-blue-6);
+    color: var(--color-white);
+}
+.socialMedia {
+    /* width: 50vw; */
+    position: absolute;
+    /* background-color: antiquewhite; */
+    margin-top: 50vh;
+    margin-left: 60vw;
+}
+#find_me_here{
+    margin-bottom: 3vh;
+    margin-left: 3vw;
+}
+.mediaIcon {
+    font-size: 10vh;
+    margin-left: 3vw;
+    cursor: pointer;
+}
+
+/* ================== Footer Section =================== */
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 20vh;
+    background-color: var(--color-torquoise-4);
+    border-top: 3px dotted var(--color-torquoise-4);
+    transition: background-color, margin-top, 2s;
+    /* border-top: 5px double black; */
+}
+.footer:hover{
+    background-color: white;
+}
+#trademark_section{
+    color: #000;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+#go_game_section{
+    margin-left: 60vw;
+}
+#game_button{
+    height: 8vh;
+    width: 15vw;
+    background-color: var(--color-torquoise-4);
+    border-radius: 4vh;
+    text-align: center;
+    margin-top: 5vh;
+    cursor: pointer;
+}
+#game_button_text{
+    padding-top: 2.3vh;
+    color: #fff;
+}
+
+
+/* ================== Modal Section ================== */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  
+  .modal {
+    width: 90%;
+    height: 90%;
+    /* max-width: 600px; */
+    /* max-height: 600px; */
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    overflow-y: auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+  }
+
+  .image_section {
+    width: 100%;
+    height: 50vh;
+    /* background-color: antiquewhite; */
+  }
+
+  .title_image {
+    height: 50vh;
+    width: 87vw;
+  }
+
+  .title_section {
+    width: 100%;
+    height: 10%;
+    /* background-color: aqua; */
+    font-size: 4vw;
+    font-weight: bold;
+    white-space: pre-wrap;
+    text-align: center;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+  }
+
+  .detail_section {
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+    white-space: pre-wrap;
+    text-align: justify;
+    font-size: 1.5vw;
+  }
+
+/* ================= For Other Devices ===================== */
+@media screen and (max-width: 1024px) {
+    .profile_image{
+        width: 20vw;
+        height: 20vw;
+        position: absolute;
+        margin-left: 15vw;
+        margin-top: 20vh;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    /* ------------------------------------ HEADER SECTION RESPONSIVE ---------------------------------- */
+    .profile_image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+        height: 60vw;
+        position: relative;
+        margin: auto;
+    }
+    .text_container{
+        line-height: 1.5;
+        position: relative;
+        margin: 0;
+        text-align: center;
+    }
+    .profile_name {
+        font-size: 6.5vw;
+    }
+    .suffix_text_profile_name {
+        font-size: 4vw;
+        font-weight: normal;
+        line-height: 1.5;
+    }
+    .quote_container {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin-top: 2vh;
+    }
+    .quote_1 {
+        font-size: 4vw;
+    }
+    .design{
+        display: none;
+    }
+    
+    /* ------------------------------- HEADER SECTION RESPONSIVE END ------------------------------ */
+    
+    /* -------------------- skill container ---------------------- */
+    .container_title {
+        width: 90%;
+        position: absolute;
+        text-align: center;
+        margin-top: 0;
+        /* background-color: aqua; */
+    }
+    .title {
+        color: var(--color-blue-3);
+        font-size: 7vw;
+        font-weight: bold;
+    }
+    .skillexp{
+        display: block;
+        /* position: relative; */
+        /* margin-top: 10vh; */
+        /* background-color: antiquewhite; */
+    }
+    .interpersonalExp{
+        /* height: 100vh; */
+        width: 90%;
+        padding-top: -10vh;
+        /* background-color: aqua; */
+    }
+    
+    .technicalExp{
+        margin-top: 5vh;
+        width: 90%;
+        /* background-color: blanchedalmond; */
+    }
+    .bordercontainer{
+        display: none;
+    }
+    #programCard{
+        background-color: var(--color-blue-7);
+        width: 25vw;
+        height: 4.5vh;
+        margin-left: 1vw;
+        margin-top: 3vh;
+        margin-bottom: 1vh;
+        border-radius: 10px;
+        text-align: center;
+    }
+    #progskillname{
+        font-size: 3vw;
+        margin-top: 1vh
+    }
+    #softCard{
+        background-color: var(--color-blue-7);
+        width: 40vw;
+        height: 7vh;
+        margin-left: 1vw;
+        margin-top: 1vh;
+        border-radius: 10px;
+        text-align: center;
+    }
+    #softskillname{
+        font-size: 4vw;
+    }
+    .skill_image{
+        position: absolute;
+        width: 70vw;
+        height: 70vw;
+        margin-left: 3vw;
+        margin-top: 20vh;
+    }
+
+    /* ------------------- education container --------------------- */
+    #education_container{
+        margin-top: 60vh;
+    }
+    .certification_detail{
+        display: block;
+    }
+    .education_cert_detail{
+        position: relative;
+        padding-top: 12vh;
+        padding-left: 8vw;
+        margin-right: 5vw;
+    }
+    #prof_cert_1{
+        border: 2px solid var(--color-blue-3);
+        border-radius: 20px;
+        height: 15vh;
+        width: 70vw;
+        box-shadow: 5px 5px 10px var(--color-blue-3);
+        margin-top: 4vh;
+        cursor: pointer;
+    }
+    #prof_cert_1:hover{
+        background-color: var(--color-white-1);
+        border-color: var(--color-white-1);
+    }
+    #cert_header{
+        margin-bottom: 3vh;
+        color: var(--color-blue-2);
+    }
+    #cert_stage_header{
+        margin-top: 3vh;
+        color: var(--color-blue-3);
+    }
+    #cert_details{
+        margin-top: 2vh;
+        margin-left: 3vw;
+    }
+    #prof_cert_head{
+        font-size: 5vw;
+        font-weight: bolder;
+        margin-top: 2vh;
+        margin-left: 1.5vw;
+    }
+    #prof_cert_uni{
+        font-size: 4vw;
+        font-weight: bold;
+        margin-top: 0.5vh;
+        margin-left: 1.5vw;
+        margin-bottom: 0.5vh;
+    }
+    #prof_cert_cer{
+        font-size: 3.5vw;
+        margin-left: 1.5vw;
+    }
+
+    /* ---------------- project container ----------------- */
+
+    #project_container_2{
+        margin-top: 70vh;
+    }
+    .project_value {
+        font-size: 7vw;
+        font-weight: bolder;
+        margin-top: -3vh;
+        margin-left: 10vw;
+    }
+    .project_desc {
+        font-size: 4vw;
+        font-weight: bold;
+        text-align: justify;
+        width: 70vw;
+        margin-left: 10vw;
+    }
+    #project_value_2{
+        margin-left: -40vw;
+    }
+    #project_desc_2{
+        margin-left: -40vw;
+        width: 60vw;
+    }
+    #major_project_title{
+        display: none;
+    }
+    .quote_container_2 {
+        width: 90%;
+        /* background-color: #FF6392; */
+        position: absolute;
+        text-align: center;
+        margin-top: 65vh;
+    }
+    .quote_2 {
+        font-size: 4vw;
+    }
+
+    /* ------------------ bottom section ------------------- */
+    #bottom_container{
+        width: 100vw;
+        height: 50vh;
+        margin-top: 140vh;
+    }
+    
+    .resume_title {
+        width: 40vw;
+        color: var(--color-black);
+        font-weight: bolder;
+        margin-top: 5vw;
+        margin-left: 30vw;
+    }
+    .resume {
+        font-size: 5vw;
+    }
+    .button_resume {
+        width: max-content;
+        height: 5vh;
+        background-color: var(--color-blue-3);
+        color: var(--color-white);
+        border-radius: 15px;
+        position: absolute;
+        margin-top: 5vw;
+        margin-left: 18vw;
+        padding: 3vw;
+        box-shadow: 5px 5px 5px var(--color-blue-5);
+    }
+    .button_resume:hover{
+        background-color: var(--color-blue-6);
+        color: var(--color-white);
+    }
+    .socialMedia {
+        /* width: 50vw; */
+        position: absolute;
+        /* background-color: antiquewhite; */
+        margin-top: 40vh;
+        margin-left: 30vw;
+    }
+    #find_me_here{
+        display: none;
+    }
+    .mediaIcon {
+        font-size: 10vw;
+        margin-left: 3vw;
+        cursor: pointer;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 15vh;
+        background-color: var(--color-torquoise-4);
+        border-top: 3px dotted var(--color-torquoise-4);
+        transition: background-color, margin-top, 2s;
+        /* border-top: 5px double black; */
+    }
+    .footer:hover{
+        background-color: white;
+    }
+    #trademark_section{
+        margin-left: 5vw;
+        margin-top: 2vh;
+    }
+    #go_game_section{
+        margin-left: 5vw;
+    }
+    #game_button{
+        height: 6vh;
+        width: 50vw;
+        background-color: var(--color-torquoise-4);
+        border-radius: 4vh;
+        text-align: center;
+        margin-top: 3vh;
+        cursor: pointer;
+    }
+    #game_button_text{
+        padding-top: 1.8vh;
+        color: #fff;
+    }
+
+    /* --------------------- Modal Container ---------------------- */
+    .image_section {
+        width: 100%;
+        height: 20vh;
+        /* background-color: antiquewhite; */
+      }
+    .title_image {
+        height: 20vh;
+        width: 87vw;
+    }
+    .detail_section {
+        width: 100%;
+        height: auto;
+        /* background-color: aquamarine; */
+        white-space: pre-wrap;
+        text-align: justify;
+        font-size: 3vw;
+      }
+
+}
