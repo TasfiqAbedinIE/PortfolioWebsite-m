@@ -74,62 +74,7 @@
     /* font-size: 2vw; */
 /* } */
 
-
-/* ================== Education container ================== */
-
-.certification_detail{
-    display: flex;
-    flex-direction: row;
-}
-.education_cert_detail{
-    position: relative;
-    padding-top: 12vh;
-    padding-left: 8vw;
-    margin-right: 5vw;
-}
-#prof_cert_1{
-    border: 2px solid var(--color-blue-3);
-    border-radius: 20px;
-    height: 20vh;
-    width: 35vw;
-    box-shadow: 5px 5px 10px var(--color-blue-3);
-    margin-top: 4vh;
-    cursor: pointer;
-}
-#prof_cert_1:hover{
-    background-color: var(--color-white-1);
-    border-color: var(--color-white-1);
-}
-#cert_header{
-    margin-bottom: 3vh;
-    color: var(--color-blue-2);
-}
-#cert_stage_header{
-    margin-top: 3vh;
-    color: var(--color-blue-3);
-}
-#cert_details{
-    margin-top: 2vh;
-    margin-left: 3vw;
-}
-#prof_cert_head{
-    font-size: 1.5vw;
-    font-weight: bolder;
-    margin-top: 2vh;
-    margin-left: 1.5vw;
-}
-#prof_cert_uni{
-    font-size: 1.3vw;
-    font-weight: bold;
-    margin-top: 0.5vh;
-    margin-left: 1.5vw;
-    margin-bottom: 0.5vh;
-}
-#prof_cert_cer{
-    font-size: 1.2vw;
-    margin-left: 1.5vw;
-}
-/* ================== Skill container ================== */
+/* ================== SKILL CONTAINER STYLE ================== */
 
 .skillexp{
     display: flex;
@@ -220,6 +165,65 @@
     margin-left: 3vw;
     margin-top: -25vh;
 }
+
+
+/* ================== SKILL CONTAINER END ================== */
+
+/* ================== Education container ================== */
+
+.certification_detail{
+    display: flex;
+    flex-direction: row;
+}
+.education_cert_detail{
+    position: relative;
+    padding-top: 12vh;
+    padding-left: 8vw;
+    margin-right: 5vw;
+}
+#prof_cert_1{
+    border: 2px solid var(--color-blue-3);
+    border-radius: 20px;
+    height: 20vh;
+    width: 35vw;
+    box-shadow: 5px 5px 10px var(--color-blue-3);
+    margin-top: 4vh;
+    cursor: pointer;
+}
+#prof_cert_1:hover{
+    background-color: var(--color-white-1);
+    border-color: var(--color-white-1);
+}
+#cert_header{
+    margin-bottom: 3vh;
+    color: var(--color-blue-2);
+}
+#cert_stage_header{
+    margin-top: 3vh;
+    color: var(--color-blue-3);
+}
+#cert_details{
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+#prof_cert_head{
+    font-size: 1.5vw;
+    font-weight: bolder;
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+}
+#prof_cert_uni{
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-top: 0.5vh;
+    margin-left: 1.5vw;
+    margin-bottom: 0.5vh;
+}
+#prof_cert_cer{
+    font-size: 1.2vw;
+    margin-left: 1.5vw;
+}
+
 
 /* ================== Project container ================== */
 .project {
@@ -506,7 +510,7 @@
     
     /* ------------------------------- HEADER SECTION RESPONSIVE END ------------------------------ */
     
-    /* -------------------- skill container ---------------------- */
+    /* -------------------- SKILL CONTAINER RESPONSIVE ---------------------- */
     .container_title {
         width: 90%;
         position: absolute;
@@ -516,7 +520,7 @@
     }
     .title {
         color: var(--color-blue-3);
-        font-size: 7vw;
+        font-size: 5vw;
         font-weight: bold;
     }
     .skillexp{
@@ -529,25 +533,30 @@
         /* height: 100vh; */
         width: 90%;
         padding-top: -10vh;
+        font-size: 3VW;
         /* background-color: aqua; */
     }
     
     .technicalExp{
         margin-top: 5vh;
         width: 90%;
+        font-size: 3VW;
         /* background-color: blanchedalmond; */
     }
     .bordercontainer{
         display: none;
     }
     #programCard{
-        background-color: var(--color-blue-7);
-        width: 25vw;
+        /* background-color: var(--color-blue-7); */
+        background-color: whitesmoke;
+        width: auto;
         height: 4.5vh;
-        margin-left: 1vw;
+        margin-left: 2vw;
         margin-top: 3vh;
         margin-bottom: 1vh;
         border-radius: 10px;
+        padding-left:1.5vw;
+        padding-right: 1.5vw;
         text-align: center;
     }
     #progskillname{
@@ -555,7 +564,8 @@
         margin-top: 1vh
     }
     #softCard{
-        background-color: var(--color-blue-7);
+        /* background-color: var(--color-blue-7); */
+        background-color: whitesmoke;
         width: 40vw;
         height: 7vh;
         margin-left: 1vw;
@@ -564,15 +574,17 @@
         text-align: center;
     }
     #softskillname{
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
     .skill_image{
         position: absolute;
         width: 70vw;
         height: 70vw;
         margin-left: 3vw;
-        margin-top: 20vh;
+        margin-top: 10vh;
     }
+
+    /* -------------------- SKILL CONTAINER RESPONSIVE END ---------------------- */
 
     /* ------------------- education container --------------------- */
     #education_container{
