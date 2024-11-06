@@ -160,7 +160,7 @@ const Header = () => {
           </div>
         </div>
       </section>
-      {/* ---------------- UPDATED - 27.10.2024 ------------------ */}
+      
 
       {/* ---------------- SKILLS & COMPETENCY CONTAINER ------------------ */}
       <section>
@@ -223,6 +223,7 @@ const Header = () => {
             </div>
         </div>
       </section>
+      {/* ---------------- UPDATED - 03.11.2024 ------------------ */}
 
       {/* ---------------- EDUCATION CONTAINER ------------------ */}
       <section>

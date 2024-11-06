@@ -169,7 +169,7 @@
 
 /* ================== SKILL CONTAINER END ================== */
 
-/* ================== Education container ================== */
+/* ================== EDUCATION CONTAINER ================== */
 
 .certification_detail{
     display: flex;
@@ -184,7 +184,7 @@
 #prof_cert_1{
     border: 2px solid var(--color-blue-3);
     border-radius: 20px;
-    height: 20vh;
+    height: 10vw;
     width: 35vw;
     box-shadow: 5px 5px 10px var(--color-blue-3);
     margin-top: 4vh;
@@ -199,7 +199,7 @@
     color: var(--color-blue-2);
 }
 #cert_stage_header{
-    margin-top: 3vh;
+    margin-top: 2.5vw;
     color: var(--color-blue-3);
 }
 #cert_details{
@@ -209,20 +209,23 @@
 #prof_cert_head{
     font-size: 1.5vw;
     font-weight: bolder;
-    margin-top: 2vh;
+    margin-top: 1vw;
     margin-left: 1.5vw;
 }
 #prof_cert_uni{
     font-size: 1.3vw;
     font-weight: bold;
-    margin-top: 0.5vh;
+    margin-top: 1vw;
     margin-left: 1.5vw;
     margin-bottom: 0.5vh;
 }
 #prof_cert_cer{
     font-size: 1.2vw;
     margin-left: 1.5vw;
+    margin-top: 0.5vw;
 }
+
+/* ================== EDUCATION CONTAINER END ================== */
 
 
 /* ================== Project container ================== */
@@ -586,7 +589,7 @@
 
     /* -------------------- SKILL CONTAINER RESPONSIVE END ---------------------- */
 
-    /* ------------------- education container --------------------- */
+    /* ------------------- EDUCATION CONTAINER RESPONSIVE --------------------- */
     #education_container{
         margin-top: 60vh;
     }
@@ -602,8 +605,8 @@
     #prof_cert_1{
         border: 2px solid var(--color-blue-3);
         border-radius: 20px;
-        height: 15vh;
-        width: 70vw;
+        height: 18vh;
+        width: 75vw;
         box-shadow: 5px 5px 10px var(--color-blue-3);
         margin-top: 4vh;
         cursor: pointer;
@@ -625,22 +628,25 @@
         margin-left: 3vw;
     }
     #prof_cert_head{
-        font-size: 5vw;
+        font-size: 4.5vw;
         font-weight: bolder;
-        margin-top: 2vh;
-        margin-left: 1.5vw;
+        margin-top: 2.5vw;
+        margin-left: 4vw;
     }
     #prof_cert_uni{
-        font-size: 4vw;
+        font-size: 3.5vw;
         font-weight: bold;
-        margin-top: 0.5vh;
-        margin-left: 1.5vw;
+        margin-top: 1vw;
+        margin-left: 4vw;
         margin-bottom: 0.5vh;
     }
     #prof_cert_cer{
-        font-size: 3.5vw;
-        margin-left: 1.5vw;
+        font-size: 3vw;
+        margin-left: 4vw;
+        margin-top: 0.6vw;
     }
+
+    /* ------------------- EDUCATION CONTAINER END --------------------- */
 
     /* ---------------- project container ----------------- */
 
