@@ -2,6 +2,8 @@ import React from 'react'
 import fastracker from '../../Assets/fastracker.png'
 import './portfolio-content.css'
 
+const cvUrl = `${process.env.PUBLIC_URL || ''}/Tasfiq-Abedin-CV.pdf`
+
 const outcomes = [
   { value: '13.47%', label: 'manpower optimized', detail: 'Workload balancing and process redesign' },
   { value: '71%', label: 'fewer end-line inspectors needed', detail: 'Integrated material flow' },
@@ -103,7 +105,10 @@ const PortfolioContent = () => (
     <section id="impact" className="portfolio-section portfolio-impact">
       <div className="portfolio-shell">
         <div className="portfolio-impact-intro">
-          <SectionHeading eyebrow="Industrial engineering · Operational excellence" title="Results at a glance" description="Measurable improvements in workforce use, material flow, and digital operations at SQUARE Fashions Limited." />
+          <div className="portfolio-impact-main">
+            <SectionHeading eyebrow="Industrial engineering · Operational excellence" title="Results at a glance" description="Measurable improvements in workforce use, material flow, and digital operations at SQUARE Fashions Limited." />
+            <a className="portfolio-cv-button" href={cvUrl} download="A-K-M-Tasfiq-Abedin-CV.pdf">Download CV <span aria-hidden="true">↓</span></a>
+          </div>
           <p className="portfolio-tenure"><strong>8+ years</strong><span>in apparel manufacturing</span></p>
         </div>
         <div className="portfolio-metrics">
@@ -212,7 +217,8 @@ const PortfolioContent = () => (
       <div className="portfolio-shell">
         <strong>A K M Tasfiq Abedin</strong>
         <span>Industrial engineering · Operational excellence · Digital transformation</span>
-        <a href="#impact">Back to results ↑</a>
+        <a className="portfolio-footer-download" href={cvUrl} download="A-K-M-Tasfiq-Abedin-CV.pdf">Download CV <span aria-hidden="true">↓</span></a>
+        <a className="portfolio-back-link" href="#impact">Back to results ↑</a>
       </div>
     </footer>
   </main>

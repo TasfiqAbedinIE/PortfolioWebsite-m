@@ -45,6 +45,9 @@
 .portfolio-impact .portfolio-eyebrow { color: #70ded0; }
 .portfolio-impact .portfolio-heading p { color: #bdd2d5; }
 .portfolio-impact-intro { display: flex; justify-content: space-between; align-items: flex-end; gap: 32px; }
+.portfolio-impact-main { max-width: 660px; }
+.portfolio-content .portfolio-cv-button { display: inline-flex; align-items: center; gap: 16px; margin-top: 28px; padding: 12px 18px; border-radius: 9px; background: #8ce5d8; color: #0c3039; font: 800 14px 'Manrope', sans-serif; }
+.portfolio-content .portfolio-cv-button:hover { background: #fff; color: #0c3039; }
 .portfolio-tenure { min-width: 190px; border-left: 1px solid rgba(255,255,255,.26); padding-left: 24px; }
 .portfolio-tenure strong { display: block; font: 800 clamp(28px, 3vw, 40px) 'Manrope', sans-serif; letter-spacing: -.04em; }
 .portfolio-tenure span { color: #bdd2d5; font-size: 14px; }
@@ -99,7 +102,10 @@
 .portfolio-footer .portfolio-shell { display: flex; align-items: center; gap: 22px; }
 .portfolio-footer strong { color: #fff; font: 800 14px 'Manrope', sans-serif; }
 .portfolio-footer span { font-size: 13px; }
-.portfolio-footer a { margin-left: auto; color: #8ce5d8; font-size: 13px; font-weight: 700; white-space: nowrap; }
+.portfolio-footer a { color: #8ce5d8; font-size: 13px; font-weight: 700; white-space: nowrap; }
+.portfolio-footer .portfolio-footer-download { margin-left: auto; padding: 8px 12px; border: 1px solid #8ce5d8; border-radius: 7px; }
+.portfolio-footer .portfolio-footer-download:hover { background: #8ce5d8; color: #0c3039; }
+.portfolio-footer .portfolio-back-link { margin-left: 4px; }
 
 @media (max-width: 900px) {
   .portfolio-metrics { grid-template-columns: repeat(2, 1fr); }
@@ -123,5 +129,5 @@
   .portfolio-project { min-height: 0; }
   .portfolio-project-metrics { margin-top: 0; }
   .portfolio-footer .portfolio-shell { align-items: start; flex-direction: column; gap: 8px; }
-  .portfolio-footer a { margin: 12px 0 0; }
+  .portfolio-footer .portfolio-footer-download, .portfolio-footer .portfolio-back-link { margin: 12px 0 0; }
 }
