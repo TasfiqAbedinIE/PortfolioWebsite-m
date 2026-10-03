@@ -14,11 +14,13 @@
 }
 .profile_name {
     font-size: 4.5vw;
+    color: #0c3039;
 }
 .suffix_text_profile_name {
     font-size: 1.5vw;
     font-weight: normal;
     line-height: 1.5;
+    color: #5c6f79;
 }
 .quote_container {
     width: 90%;
@@ -29,6 +31,10 @@
 }
 .quote_1 {
     font-size: 3vw;
+    color: #0c3039;
+}
+.quote_1 .high_priority {
+    color: #168b8b;
 }
 .design{
     /* background-color: var(--color-blue-1); */
@@ -40,23 +46,27 @@
 #column_1{
     width: 3vw;
     height: 20vh;
-    background-color: var(--color-torquoise-5);
+    background-color: #0c3039;
 }
 #column_2{
     width: 3vw;
     height: 15vh;
-    background-color: var(--color-torquoise-6);
+    background-color: #168b8b;
 }
 #column_3{
     width: 3vw;
     height: 10vh;
-    background-color: var(--color-torquoise-7);
+    background-color: #70ded0;
 }
 .downArrow {
     position: fixed;
     margin-top: 93vh;
     margin-left: 43.7vw;
     font-size: 2.5vw;
+    color: #168b8b;
+}
+.downArrow:hover {
+    color: #0c3039;
 }
 
 /* ------------------------------------------- HEADER SECTION END ----------------------------------------- */
